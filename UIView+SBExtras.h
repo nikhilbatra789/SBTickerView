@@ -31,5 +31,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (SBExtras)
-- (UIImage*)image;
+- (UIImage*)imageScreenshot;
 @end

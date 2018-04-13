@@ -33,7 +33,7 @@
 
 @implementation UIView (SBExtras)
 
-- (UIImage*)image {
+- (UIImage*)imageScreenshot {
 	UIImage *image = nil;
 	UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, [UIScreen mainScreen].scale);
 	[self.layer renderInContext:UIGraphicsGetCurrentContext()];

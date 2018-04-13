@@ -144,8 +144,8 @@
     
     [self.layer addSublayer:_flipLayer];
     
-    UIImage *frontImage = [_frontView image];
-    UIImage *backImage = [_backView image];
+    UIImage *frontImage = [_frontView imageScreenshot];
+    UIImage *backImage = [_backView imageScreenshot];
     
     // Face layers
     // Top
